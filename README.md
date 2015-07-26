@@ -15,15 +15,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Description of the Script
 
-The code is an R script. When downloaded and executed, it does the following:
+The code is an R script. Run is in either R studio or source is into an R session by executing source("run_analysis.R")
 
-1. It downloads the raw data file from the internet and extracts it in the folder it was run
-2. The extracted data set contains the raw files and description of the raw files.
+1. It downloads the raw data file from the internet and extracts it in the folder it was run. The size of the downloaded file is approximately 62.5 MB
+2. The extracted data set contains the raw files and description of the raw files. The name of the extracted directory is "UCI HAR Dataset" and its size around 283 MB
 3. The script merges so called training and test datasets into one data set.
 4. It removed all columns except the mean and standard deviation of measurements.
 5. It changes the labels of the data to be more descriptive 
 6. Outputs two files
-    - **combined_data.csv** : the cleaned and appropriately labeled data in CSV format (see codebook for description)
-    - **avg_data.txt** : a file which contains average of each measurement for each activity and each subject in the previous file (see codebook for description)
+    - **combined_data.csv** : the cleaned and appropriately labeled data in CSV format. (see codebook for description)
+    - **avg_data.txt** : a file which contains average of each measurement for each activity and each subject in the previous file (see codebook for description). 
     
 Please see codebook.MD for description of the resulting data files.
