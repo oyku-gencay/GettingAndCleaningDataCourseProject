@@ -99,4 +99,4 @@ write.csv(combined_data, file = "combined_data.csv", row.names = FALSE)
 # all columns except last two (activity & subject)
 averages_data <- ddply(combined_data, .(Subject, Activity), function(x) colMeans(x[, 1:66]))
 # write the table to file
-write.table(averages_data, "avg_data.txt", row.name=FALSE)
+write.table(averages_data, "avg_data.txt", row.names=FALSE)

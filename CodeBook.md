@@ -36,12 +36,15 @@ Information regarding the raw data is provided with the README.txt file in the d
 
 One of the data output of the script is called **"avg_data.txt"** and it is produced by  
 
-`write.table(averages_data, "avg_data.txt", row.name=FALSE)`  
+`write.table(averages_data, "avg_data.txt", row.names=FALSE)`  
 
-Feel free to change the `row.name` parameter value to **TRUE** to output the column names. The variables in this data file are the averages of each variable by **subject** and **activity**
+The variables in this data file are the averages of each variable by **subject** and **activity**. In other words, there is only one line of data for each subject doing each activity.
+
+The data file **avg_data.txt** should contain 180 rows of data for 68 variables
+
 ## Variables
 
-The output of the script contains two tidy data files. The tidy data file is called "combined_data.csv" and it is in the CSV format.
+The output of the script contains two tidy data files. The tidy data file is called **"combined_data.csv"** and it is in the CSV format.
 
 The output file contains means and standard deviation of measurements that come from "accelerometer" and "gyroscope" of the device in 3-axis (X, Y and Z) in time domain and a Fast Fourier Transform (FFT) applied to signals to produce frequency domain.
 
@@ -51,6 +54,7 @@ The variables that are measured from 3-axis are suffixed with **.X**, **.Y** and
 
 The values that contain the mean value of measurements contain **.Mean** and standard deviation of those measurements contain **.StandardDeviation**
 
+The data file **combined_data.csv** should contain 10299 rows of data for 68 variables
 
 | Variable | Description
 -----------|-------------
