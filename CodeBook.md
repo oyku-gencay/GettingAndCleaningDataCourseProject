@@ -2,8 +2,7 @@
 
 ## Introduction
 
-This code book describes tidy data set produced from raw data of **"Human Activity Recognition Using Smartphones Dataset
-"**
+This code book describes tidy data set produced from raw data of **"Human Activity Recognition Using Smartphones Dataset"**
 
 The study is carried out by:  
 
